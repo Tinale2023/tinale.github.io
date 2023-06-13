@@ -1,44 +1,24 @@
-* Selectors */
 
-/* Element selector
-- Select all the tags of the same type */
 body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 18px;
 }
 
-/* Targeting multiple elements
-- If you’d like to style more than one element the same way you can use a comma to separate the tag names. */
+
 header,footer{
     background-color: brown;
 }
 
-/* Some elements have default styling applied in the browser that you have to consider. The p element has margin top and bottom. */
+
 .site-title{
     color: green;
 }
 
-/* Comment */
-/* . Class selector
-- Select an element that has a class */
 
-/* # ID selector
-- Select an element that has has the ID - remember you can only have one unique ID per page */
 #my-image{
     box-shadow: 0px 0px 2px 1px black;
 }
 
-/* + Adjacent sibling
-- Select an element immediately beside another element */
-
-/* Element selector
-- Affecting multiple h2 on the page */
-
-/* > Child selector 
-- Select an element directly inside another element */
-
-/* [] Attribute
-- Select an element by it’s attribute. */
 
 
 
@@ -50,22 +30,14 @@ header,footer{
 
 
 
-/* Pseudo classes */
 
-/* :nth-child()
-- Select an element by it’s number OR odd/even. */
+
 
 li:nth-child(odd){
     background: none;
 }
 
-/* :last-child
-- Select the element when it’s the last inside its parent. */
 
-/* :first-of-type
-- Select an element that’s the first of its kind within its parent. */
-
-/* Removing bullets and changing bullet type */
 .second-ul {
     list-style-type: square;
 }
@@ -75,7 +47,6 @@ li:nth-child(odd){
 
 }
 
-/* Change link styling */
 header a {
     text-decoration: none;
     background-color: yellow;
