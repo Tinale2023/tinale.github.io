@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+
+    
+
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 2;
+    background-color: #8c6969;
+}
+
+
+.wallpaper{
+    position: relative;;
+    
+}
+
+#wallpaper {
+    float: top;
+    width: 100%;
+    height: 600px;
+}
+
+
+
+h1 {
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    width: 1000px;
+    text-align: center;
+    color: white;
+    
+}
+
+.display {
+    text-align: center;
+}
+
+.display ul {
+    padding-left: 0;
+}
+
+.display ul li  {
+    text-align: center;
+    width: 100px;
+    display: inline-block;
+    
+}
+
+.display ul li a {
+    display: inline-block;
+    text-size-adjust: 20px;
+}
+
+#white-witch {
+    width: 250px;
+    float: left;
+    padding-right: 20px;
+    margin-left: 10px;
+}
+
+.introduce p {
+    line-height: 1.4;}
+
+
+.facts li {
+    line-height: 1;
+}
