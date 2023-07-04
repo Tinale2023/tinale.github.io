@@ -1,26 +1,26 @@
 * {
-    box-sizing: border-box;
-
-    
-
-}
+    box-sizing: border-box;}
 
 body {
     font-family: 'Times New Roman', Times, serif;
     line-height: 2;
-    background-color: #8c6969;
+    background-color: #401330;
 }
 
+.wrapper{
 
-.wallpaper{
-    position: relative;;
+    background-color:#8C6969;
+    max-width: 800px;
     
+    margin: 0 auto;
+    
+
 }
 
 #wallpaper {
     float: top;
     width: 100%;
-    height: 600px;
+    height: 100%;
 }
 
 
@@ -35,28 +35,38 @@ h1 {
     
 }
 
-.display {
-    text-align: center;
+.display ul li {
+    display: inline;
+    font-size: 25px;
 }
 
 .display ul {
     padding-left: 0;
 }
 
-.display ul li  {
-    text-align: center;
-    width: 100px;
-    display: inline-block;
+#home {
+    margin-left:10px;
+    background-color:#735439 ;
+     
+}
+
+#contact {
+    margin-left: 230px;
+    background-color: #735439;
+}
+
+#story {
+    margin-left: 260px;
+    background-color: #735439;
     
 }
 
-.display ul li a {
-    display: inline-block;
-    text-size-adjust: 20px;
-}
+
+
+
 
 #white-witch {
-    width: 250px;
+    width: 370px;
     float: left;
     padding-right: 20px;
     margin-left: 10px;
@@ -69,3 +79,36 @@ h1 {
 .facts li {
     line-height: 1;
 }
+
+.message {
+    width: 700px;
+    height: 600px;
+    margin: 40px;
+
+  
+    padding: 10px;
+  
+    border: 3px solid #221D26}
+
+.footer {
+    margin-left:650px;
+}
+
+#fullname {
+    width:600px
+}
+
+#email {
+    width: 600px
+}
+
+#story-2 {
+    width:600px;
+    height:100px;
+    margin: auto;
+}
+
+#more {
+    width:400px
+}
+  

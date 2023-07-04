@@ -7,20 +7,20 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    <div class="wallpaper">
+    <div class="wrapper">
         <header>
             <h1>THE WANDERING CIRCUS</h1>
             <img id="wallpaper" src="Images/Images-2.png" alt="">
         </header>
-    </div>
+    
 
 
 <main>
     <section class="display">
         <ul>
-            <li><a href="#">HOME</a></li>
-            <li><a href="#">STORY</a></li>
-            <li><a href="#">CONTACT</a></li>
+            <li id="home"><a href="#">HOME</a></li>
+            <li id="story"><a href="#">STORY</a></li>
+            <li id="contact"><a href="#">CONTACT</a></li>
         </ul>
 
     </section>
@@ -43,7 +43,7 @@
 
     <section>
         <div class="facts">
-        <h2>Facts About The Wandering Circus</h2>
+        <h3>Facts About The Wandering Circus</h3>
         <ul>
             <li>The Wandering Circus consists of 5 members - The White Witch, The Gluttony Monkey, The Smeraldo Flower, The Sad Clown and The Black Fox</li>
             <li>The purpose of the circus is to find the purest abd most bookish soul</li>
@@ -53,7 +53,55 @@
         </ul>
         </div>
     </section>
+
+    <section>
+        <div class="message">
+        <h2>The letter you want to send to the circus</h2>
+        <label for="full name">Your Name</label>
+        <br>
+        <input id="fullname" type="text" name="fullname">
+        <br>
+
+        <label for="email">Your Email</label>
+        <br>
+        <input id="email" type="text" name="email">
+        <br>
+
+        <label for="story">Your Story</label>
+        <br>
+        <textarea id="story-2"></textarea>
+        <br>
+
+        <label for="text">Your Desire</label>
+        <select id="desire" name="desire">
+            <option value="Money">Money</option>
+            <option value="Beauty">Beauty</option>
+            <option value="Powerful">Powerful</option>
+        </select>
+        <label for="more">More</label>
+        <input id="more"></textarea>
+
+        <h4>Would you like to see The Wandering Circus?</h4>
+        <label for="yes">Yes</label>
+        <input type="radio" id="yes" name="meeting" value="#">
+        <label for="no">No</label>
+        <input type="radio" id="no" name="meeting" value="#" checked>
+        <br>
+
+        <button id="submit" type="submit">SEND</button>
+        </div>
+
+
+  
+
+    </section>
+
 </main>
+
+<footer class="footer">
+    <p>&copy; 2023 Tina</p>
+</footer>
+</div>
 
 </body>
 </html>
