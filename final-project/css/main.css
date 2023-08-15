@@ -1,22 +1,22 @@
-html body img iframe h1 h2 h3 p ul li form table tbody tfoot thead tr th td footer header section {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    vertical-align: baseline;
+
+body {
+        font-family: 'Open Sans', sans-serif;
+      }
+
+body.wrapper {
+    padding: 1.5rem;
+    max-width: 1200px;
 }
+
+h3 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
 
 footer header nav section {
     display: block;
-}
-
-ul {
-    list-style: none;
-}
-
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
 }
 
 body {
@@ -39,7 +39,7 @@ header{
 }
 
 nav {
-    background-color: wheat;
+    background-color: #c78c06;
     font-weight: bold;
     font-size: 20px;
 }
@@ -49,13 +49,17 @@ nav ul {
 }
 
 
-nav ul li:nth-child(2) {
-    background-color: wheat;
+nav ul li:nth-child(n+2) {
+    background-color: #ffe6ac;
+}
+
+nav ul li:nth-child(1) a {
+    color:#222;
 }
 
 nav form {
     text-align: center;
-    background-color: bisque;
+    background-color: #ffe6ac ;
 }
 
 li {
@@ -67,7 +71,7 @@ nav li a {
 }
 
 li {
-    padding: 1.5rem;
+    padding: 25px;
 }
 
 form {
@@ -76,8 +80,18 @@ form {
 
 form button {
     width: 10px;
-    background-color: wheat;
+    background-color: black;
+    color:#c78c06;
+    font-size: 20px;
+    border: 1px soild #c78c06;
     
+}
+
+form input {
+    width: 90%;
+    font-size: 20px;
+    padding: 10px;
+    border: 1px soild #c78c06;
 }
 
 main {
@@ -90,8 +104,10 @@ main {
 }
 
 #main-container {
-    background-color: antiquewhite;
+    background-color: rgba(0, 0, 0, 0.6);
     width: 100%;
+
+    
 }
 
 h1 {
@@ -105,7 +121,7 @@ main p {
 }
 
 main button {
-    background-color: bisque;
+    background-color: #c78c06;
     margin-top:10px ;
     padding: 30px;
     font-size:20px;
@@ -113,7 +129,7 @@ main button {
 }
 
 #about_us {
-    background-color: bisque;
+    background-color: #ffe6ac;
     height: auto;
 }
 
@@ -134,27 +150,27 @@ h2{
 }
 
 .digital{
-    background-color: wheat;
+    background-color: #ffe6ac;
     margin-bottom: 15px;
 }
 
 .video{
-    background-color: wheat;
+    background-color: #ffe6ac;
     margin-bottom: 15px;
 }
 
 .web{
-    background-color: wheat;
+    background-color: #ffe6ac;
     margin-bottom: 15px;
 }
 
 .print{
-    background-color: wheat;
+    background-color: #ffe6ac;
     margin-bottom: 15px;
 }
 
 .marketing{
-    background-color: wheat;
+    background-color: #ffe6ac;
     margin-bottom: 15px;
 }
 
@@ -257,7 +273,7 @@ h2{
 
 .vision-button {
     margin-top: 15px;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.6);
     padding: 25px;
     font-size: 15px;
     color:white;
@@ -265,12 +281,12 @@ h2{
 } 
 
 .team-member-1 {
-background-color: wheat;
+background-color: #ffe6ac;
 margin-bottom: 15px;
 }
 
 .team-member-2 {
-    background-color: wheat;
+    background-color: #ffe6ac;
     margin-bottom: 15px;
 }
 
@@ -287,13 +303,13 @@ margin-bottom: 15px;
 
 .team-member-1 hr {
     height: 2px;
-    background-color: orange;
+    background-color: #c78c06;
     border: none;
 }
 
 .team-member-2 hr {
     height: 2px;
-    background-color: orange;
+    background-color: #c78c06;
     border: none;
 }
 
@@ -338,7 +354,7 @@ table, th,td {
 }
 
 thead{ 
-    background-color: wheat;
+    background-color:#ffe6ac ;
     height: 15px;
 }
 
@@ -357,7 +373,7 @@ iframe {
 
 footer {
     background-color: black;
-    color: wheat;
+    color: #ffe6ac;
 }
 
 

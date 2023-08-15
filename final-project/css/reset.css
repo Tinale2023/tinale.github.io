@@ -6,6 +6,7 @@
         align-items: center;
     }
 
+  
     nav ul {
         display: flex;
 
@@ -16,7 +17,7 @@
     }
 
     nav ul li :first-child {
-        background-color: bisque;
+        background-color: #ffe6ac;
     }
 
     nav form {
