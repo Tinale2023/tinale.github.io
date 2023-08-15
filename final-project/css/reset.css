@@ -17,7 +17,7 @@
     }
 
     nav ul li :first-child {
-        background-color: #ffe6ac;
+        color: #ffe6ac;
     }
 
     nav form {
